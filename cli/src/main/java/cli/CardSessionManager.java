@@ -1,4 +1,4 @@
-package test;
+package cli;
 
 import javax.smartcardio.*;
 import java.util.List;
@@ -89,7 +89,7 @@ public class CardSessionManager {
 
         // Display the response
         byte[] responseBytes = response.getBytes();
-        System.out.println("Response: " + bytesToHex(responseBytes));
+        // System.out.println("Response: " + bytesToHex(responseBytes));
         System.out.println("SW1 SW2: " + String.format("%02X %02X", response.getSW1(), response.getSW2()));
 
     }

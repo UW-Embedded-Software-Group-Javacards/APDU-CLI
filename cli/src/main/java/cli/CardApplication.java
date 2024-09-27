@@ -1,4 +1,4 @@
-package test;
+package cli;
 
 import javax.smartcardio.*;
 

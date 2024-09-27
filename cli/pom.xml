@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>test</groupId>
-    <artifactId>test-smartcardio</artifactId>
+    <groupId>javacard-cli</groupId>
+    <artifactId>cli</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
@@ -25,7 +25,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>test.CardApplication</mainClass>
+                    <mainClass>cli.CardApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
